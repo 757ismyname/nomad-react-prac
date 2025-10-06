@@ -3,7 +3,7 @@ import Button from "./Button";
 import styles from "./App.module.css"
 import { useState, useEffect } from "react";
 
-function App() {
+function App_20251001() {
 
   const [counter, setValue] = useState(0);
   const [keyword, setKeyword] = useState("");
@@ -25,7 +25,6 @@ function App() {
     // }
   },[keyword])
   
-
     useEffect(() => {
     console.log("total change ", counter, " ::" , keyword)
   },[counter,keyword])
@@ -49,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default App_20251001
